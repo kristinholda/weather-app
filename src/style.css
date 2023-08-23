@@ -1,0 +1,116 @@
+body {
+  background: rgb(56, 102, 224);
+  background: linear-gradient(
+    90deg,
+    rgba(56, 102, 224, 1) 0%,
+    rgba(136, 164, 236, 1) 100%
+  );
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 50px;
+  color: #3866e0;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  font-size: 20px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 14px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+.weather-app {
+  border: 1px solid #3866e0;
+  background-color: #fdfeff;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 800px;
+}
+.row.search-container {
+  margin: 0px 20px;
+}
+
+.search {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
+.current-position {
+  display: block;
+  margin: 20px auto;
+  background-color: #0d6efd;
+  border: none;
+  color: #ffffff;
+  padding: 7px 20px;
+  border-radius: 5px;
+}
+.upcoming-weather {
+  padding: 20px 0px;
+}
+
+.current-weather {
+  padding: 20px 0px;
+}
+
+.current-weather p {
+  margin: 10px auto;
+}
+.upcoming-weather .row {
+  justify-content: center;
+}
+
+.upcoming-weather .row .col-2 {
+  border: solid 1px #88a4ec;
+  background-color: #e9eefa;
+  margin: 10px;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+
+.upcoming-weather .row .col-2 p {
+  margin: 10px auto;
+  color: #3866e0;
+}
+
+.weather-app h1 {
+  color: #3866e0;
+}
+
+.upcoming-weather .row .col-2 .weather-type {
+  color: #000000;
+}
+
+span.fahrenheit-celsius {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+a#fahrenheit,
+a#celsius {
+  color: #3866e0;
+}
