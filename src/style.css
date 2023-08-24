@@ -115,6 +115,11 @@ a#celsius {
   color: #3866e0;
 }
 
+.github-repo p {
+  color: #ffffff;
+  font-size: 12px;
+}
+
 .github-repo a {
   color: #ffffff;
 }
