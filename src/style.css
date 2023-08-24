@@ -114,3 +114,7 @@ a#fahrenheit,
 a#celsius {
   color: #3866e0;
 }
+
+.github-repo a {
+  color: #ffffff;
+}
